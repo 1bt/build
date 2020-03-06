@@ -1,0 +1,22 @@
+adc start
+fmu sensor_reset 50
+hmc5883 -C -T -X start
+lis3mdl -X start
+ist8310 start
+qmc5883 -X start
+rm3100 start
+ms5611 -s start
+if param compare SYS_AUTOSTART 4250
+then
+mpu9250 -s -R 14 start
+mpu9250 -t -R 14 start
+fi
+if ! hmc5883 -C -T -S -R 2 start
+then
+lis3mdl start
+fi
+if ! icm20602 -R 8 start
+then
+icm20608g -R 8 start
+fi
+mpu9250 -R 2 start

@@ -1,0 +1,19 @@
+
+/* Auto Magically Generated file */
+/* Do not edit! */
+#pragma once
+
+#define PX4_GIT_VERSION_STR  "581b92dd3f661d06467045296385adf719a79392"
+#define PX4_GIT_VERSION_BINARY 0x581b92dd3f661d06
+#define PX4_GIT_TAG_STR  "v1.11.0-beta1-652-g581b92dd3f-dirty"
+#define PX4_GIT_BRANCH_NAME  "master"
+
+#define ECL_LIB_GIT_VERSION_STR  "3fa5f501ae7edc4a793f0973e156706afcc8b419"
+#define ECL_LIB_GIT_VERSION_BINARY 0x3fa5f501ae7edc4a
+
+#define MAVLINK_LIB_GIT_VERSION_STR  "a66fd2081d4ff64f2bc32573b585d0c00dfef59e"
+#define MAVLINK_LIB_GIT_VERSION_BINARY 0xa66fd2081d4ff64f
+
+#define NUTTX_GIT_VERSION_STR  "d509b1edd736cb7db509a9c86e7ffcde10c4fd45"
+#define NUTTX_GIT_VERSION_BINARY 0xd509b1edd736cb7d
+#define NUTTX_GIT_TAG_STR  "v8.2.0"
